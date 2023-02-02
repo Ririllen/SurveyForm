@@ -1,0 +1,58 @@
+h1, p {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+body {
+  width: 100%;
+  height: 50vh;
+  background-color: #3e1d6483;
+  color: rgba(70, 46, 59, 0.9);
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+  font-size: 16px;  
+}
+
+label {
+  display: block; 
+  margin: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+input, textarea, select {
+  width: 95%;
+  border-radius: 4px;
+  border: 1px violet solid;
+  display: block; 
+  margin: 0 auto;
+}
+
+#survey-form {
+  background-color: rgba(60,127,200,0.3);
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50vw;
+  max-width: 400px;
+  min-width: 300px; 
+  box-shadow: -2px -2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin: 1em auto;
+  height: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  background: linear-gradient( rgba(70, 46, 59, 0.3), rgba(60,127,200,0.3) );
+  border-color: rgba(60,127,200,0.3);
+  color: rgba(70, 46, 59, 0.9);
+}
+
+.inline {
+  width: unset;
+  margin: 0;
+  display: inline;
+}
+
+fieldset {
+  margin-top: 1rem;
+  border: none;
+}

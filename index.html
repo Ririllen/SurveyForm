@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>  
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill in the following information</p>  
+      <form id="survey-form">
+        <label id="name-label" for="name">Name</label> <input id="name" type="text" placeholder="Name" required />
+        <label id="email-label" for="email">Email</label> <input id="email" type="email" placeholder="Email" required />
+        <label id="number-label" for="number">Age</label> <input id="number" type="number" placeholder="Age" min="18" max="120">
+
+        <label id="dropdown-label" for="dropdown">What is your favorite dessert?</label>
+        <select id="dropdown">
+          <option>Ice-Cream</option>
+          <option>Chocolate</option>
+          <option>Cakes</option>
+        </select>  
+
+        <fieldset>
+          <legend>What do you prefer?</legend> 
+          <label for="r1"><input type="radio" name="radio" value="r1" class="inline" id="r1"/> Sweet</label>
+          <label for="r2"><input type="radio" name="radio" value="r2" class="inline" id="r2"/> Salty</label>
+          <label for="r3"><input type="radio" name="radio" value="r3" class="inline" id="r3"/> Sour</label>
+        </fieldset>  
+
+        <fieldset> 
+          <legend>What sports do you practice?</legend> 
+          <label for="cbox1"><input id="cbox1" type="checkbox" value="1" class="inline"/> Volleyball</label>
+          <label for="cbox2"><input id="cbox2" type="checkbox" value="1" class="inline"/> Basketball</label>
+          <label for="cbox3"><input id="cbox3" type="checkbox" value="1" class="inline"/> Rugby</label>
+          <label for="cbox4"><input id="cbox4" type="checkbox" value="1" class="inline"/> Curling</label>
+          <label for="cbox5"><input id="cbox5" type="checkbox" value="1" class="inline"/> Tennis</label>
+          <label for="other">  Other<textarea id="other"></textarea></label>
+        </fieldset>    
+        <input type="submit" id="submit"/>
+      </form>  
+  </body>  
+</html>  
